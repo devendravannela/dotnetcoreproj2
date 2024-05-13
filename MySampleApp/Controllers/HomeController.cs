@@ -10,6 +10,7 @@ namespace MySampleApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            string str = "Select * from Emp where ID=1";
             _logger = logger;
         }
 
